@@ -1,7 +1,9 @@
 class Triangle
   # write code here
   def initialize(long, longer, longest)
-    @type = type
+    @long = long
+    @longer = longer
+    @longest = longest 
   end
 
   def kind
