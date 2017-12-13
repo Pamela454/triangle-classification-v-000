@@ -9,6 +9,7 @@ class Triangle
   end
 
   def kind
+    evaluate_triangle
     if long == longer || longer ==longest || longest == long
       return :isosceles
     elsif long == longer && longer == longest
