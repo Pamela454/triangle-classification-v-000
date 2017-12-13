@@ -20,7 +20,7 @@ class Triangle
 end
 
 def evaluate_triangle
-  valid_triangle = (a > 0, b > 0, c > 0)
+  valid_triangle = [(a > 0), (b > 0), (c > 0)]
   [a, b, c].each {|l| valid_triangle == false if s <= 0}
     raise TriangleError if evaluate_triangle.include?(false)
   end
