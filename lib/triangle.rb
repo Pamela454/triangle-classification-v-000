@@ -1,5 +1,7 @@
 class Triangle
   # write code here
+  attr_reader :long, :longer, :longest 
+  
   def initialize(long, longer, longest)
     @long = long
     @longer = longer
