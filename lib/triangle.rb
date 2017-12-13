@@ -19,8 +19,7 @@ class Triangle
 end
 
 def evaluate_triangle
-  if kind != :isosceles, :equilateral, :scalene
-    raise TriangleError 
+    raise TriangleError if kind != :isosceles, :equilateral, :scalene
   end
 end
 
