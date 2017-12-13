@@ -1,15 +1,19 @@
 class Triangle
   # write code here
-  attr_reader :long, :longer, :longest 
-  
+  attr_reader :long, :longer, :longest
+
   def initialize(long, longer, longest)
     @long = long
     @longer = longer
-    @longest = longest 
+    @longest = longest
   end
 
   def kind
-    return type
+    if long == longer || longer ==longest || longest == long
+      return :isosceles
+    elsif 
+
+
   end
 end
 
