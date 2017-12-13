@@ -9,15 +9,15 @@ class Triangle
   end
 
   def kind
-    evaluate_triangle
-    if long == longer || longer ==longest || longest == long
-      return :isosceles
-    elsif long == longer && longer == longest
-      return :equilateral
-    else
-      return :scalene
-  end
-end
+      validate_triangle
+      if a == b && b == c
+        :equilateral
+      elsif a == b || b == c || a == c
+        :isosceles
+      else
+        :scalene
+      end
+    end
 
 def evaluate_triangle
     real_triangle = [(a + b > c), (a + c > b), (b + c > a)]
