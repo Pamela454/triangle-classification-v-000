@@ -11,9 +11,9 @@ class Triangle
   def kind
     if long == longer || longer ==longest || longest == long
       return :isosceles
-    elsif 
-
-
+    elsif long == longer && longer == longest 
+      return equilateral
+    
   end
 end
 
