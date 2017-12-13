@@ -1,11 +1,11 @@
-class Triangle(long, longer, longest)
+class Triangle
   # write code here
-  def initialize(type)
+  def initialize(long, longer, longest)
     @type = type
   end
 
   def kind
-    return type 
+    return type
   end
 end
 
