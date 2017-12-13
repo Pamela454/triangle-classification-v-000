@@ -20,7 +20,8 @@ class Triangle
 end
 
 def evaluate_triangle
-    raise TriangleError if evaluate_triangle.include? (isosceles, equilateral, scalene)
+  valid_triangle = (a > 0, b > 0, c > 0)
+    raise TriangleError if evaluate_triangle.include? (
   end
 end
 
