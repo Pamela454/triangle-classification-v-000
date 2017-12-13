@@ -5,6 +5,7 @@ class Triangle(long, longer, longest)
   end
 
   def kind
+    return type 
   end
 end
 
