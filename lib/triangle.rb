@@ -19,6 +19,7 @@ class Triangle
 end
 
 def evaluate_triangle
+  if kind != :isosceles, :equilateral, :scalene
 end
 
 class TriangleError < StandardError
