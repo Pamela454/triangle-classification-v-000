@@ -12,9 +12,9 @@ class Triangle
     if long == longer || longer ==longest || longest == long
       return :isosceles
     elsif long == longer && longer == longest
-      return equilateral
+      return :equilateral
     else
-      return scalene
+      return :scalene
   end
 end
 
